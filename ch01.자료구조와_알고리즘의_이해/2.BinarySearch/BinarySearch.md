@@ -8,7 +8,8 @@
     2. 1의 값을 가지는 인덱스(mid)와 찾으려는 값 x의 비교연산을 수행하여 
         + $x < arr[mid]$ 라면 $last = mid - 1$
         + $x > arr[mid]$ 라면 $first = mid + 1$
-        + $x == arr[mid]$ 라면 탐색 종료
+        + 라면 탐색 종료
+        <!-- $x == arr[mid]$ --> 
 ~~~ C
 #include <stdio.h>
 
@@ -71,6 +72,8 @@ int main(void) {
     + k값 정의
       - $\log_2n=k$
       - $\therefore T(n)=\log_2n$   
+
+
 
 <script>
 https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.15.2/katex.min.js</script>
