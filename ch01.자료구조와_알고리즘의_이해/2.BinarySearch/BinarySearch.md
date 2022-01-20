@@ -71,3 +71,6 @@ int main(void) {
     + k값 정의
       - $\log_2n=k$
       - $\therefore T(n)=\log_2n$   
+
+<script>
+https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.15.2/katex.min.js</script>
