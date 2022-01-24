@@ -38,7 +38,7 @@ int main(void) {
 ---
 + 탐색 알고리즘 내에서 연산횟수의 기준이 되는 연산자
     - <!-- $==$ --> <img style="transform: translateY(0.1em); background: white; width:8.5em;" src="https://render.githubusercontent.com/render/math?math=%3D%3D"> (동등비교 연산자)
-    - 비교 연산의 횟수가 줄어든다는 것은 <!-- $<, >, ++, --$ --> <img style="transform: translateY(0.1em); background: white; width:8.5em;" src="https://render.githubusercontent.com/render/math?math=%3C%2C%20%3E%2C%20%2B%2B%2C%20--"> 등 반복문 종료에 다다르기 위한 연산의 수행횟수가 줄어들기 때문이다.
+    - 비교 연산의 횟수가 줄어든다는 것은 <img style="transform: translateY(0.1em); background: white; width:8.5em;" src="https://render.githubusercontent.com/render/math?math=%3C%2C%20%3E%2C%20%2B%2B%2C%20--"> 등 반복문 종료에 다다르기 위한 연산의 수행횟수가 줄어들기 때문이다.<!-- $<, >, ++, --$  -->
     - 다른 연산들은 동등비교 연산자에 의존적이다.
     - <!-- $\therefore$ --> <img style="transform: translateY(0.1em); background: white; width:8.5em;" src="https://render.githubusercontent.com/render/math?math=%5Ctherefore"> == 연산의 횟수를 대상으로 시간 복잡도를 분석한다.
 ---
