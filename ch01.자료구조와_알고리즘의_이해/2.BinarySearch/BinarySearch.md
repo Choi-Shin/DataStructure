@@ -64,8 +64,7 @@ int main(void) {
         <img style="transform: translateY(0.1em); background: white; width:8.5em;" src="https://render.githubusercontent.com/render/math?math=n">
     - <img style="transform: translateY(0.1em); background: white; width:8.5em;" src="https://render.githubusercontent.com/render/math?math=n">이 1이 되기까지 2로 나눈 횟수 <img style="transform: translateY(0.1em); background: white; width:8.5em;" src="https://render.githubusercontent.com/render/math?math=k">
     - 마지막 데이터가 남았을 때 비교 연산 1회 진행
-    - 최악의 경우에 대한 시간 복잡도 함수 
-    <!-- $T(n)=k+1$ --> <img style="transform: translateY(0.1em); background: white; width:8.5em;" src="https://render.githubusercontent.com/render/math?math=T(n)%3Dk%2B1">
+    - 최악의 경우에 대한 시간 복잡도 함수 <img style="transform: translateY(0.1em); background: white; width:8.5em;" src="https://render.githubusercontent.com/render/math?math=T(n)%3Dk%2B1">
 + <img style="transform: translateY(0.1em); background: white; width:8.5em;" src="https://render.githubusercontent.com/render/math?math=T(n)%3Dk%2B1">에 대한 연산 (k값 구하기)
     + n값 정의 
       - <img style="transform: translateY(0.1em); background: white; width:8.5em;" src="https://render.githubusercontent.com/render/math?math=n%5Ctimes(%5Cfrac%7B1%7D%7B2%7D)%5Ek%3D1">
