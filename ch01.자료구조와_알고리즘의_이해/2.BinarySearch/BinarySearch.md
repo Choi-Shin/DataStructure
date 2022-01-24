@@ -8,8 +8,8 @@
     2. 1의 값을 가지는 인덱스(mid)와 찾으려는 값 x의 비교연산을 수행하여 
         + <!-- $x < arr[mid]$ --> <img style="transform: translateY(0.1em); background: white; width:8.5em;" src="https://render.githubusercontent.com/render/math?math=x%20%3C%20arr%5Bmid%5D"> 라면  <!-- $last = mid - 1$ --> <img style="transform: translateY(0.1em); background: white; width:8.5em;" src="https://render.githubusercontent.com/render/math?math=last%20%3D%20mid%20-%201">
         + <!-- $x > arr[mid]$ --> <img style="transform: translateY(0.1em); background: white; width:8.5em;" src="https://render.githubusercontent.com/render/math?math=x%20%3E%20arr%5Bmid%5D"> 라면 <!-- $first = mid + 1$ --> <img style="transform: translateY(0.1em); background: white; width:8.5em;" src="https://render.githubusercontent.com/render/math?math=first%20%3D%20mid%20%2B%201">
-        + 라면 탐색 종료
-        <!-- $x == arr[mid]$ --> 
+        + <img style="transform: translateY(0.1em); background: white; width:8.5em;" src="https://render.githubusercontent.com/render/math?math=x%20%3D%3D%20arr%5Bmid%5D"> 라면 탐색 종료
+        <!-- <!-- $x == arr[mid]$ -->  --> 
 ~~~ C
 #include <stdio.h>
 
