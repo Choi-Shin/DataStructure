@@ -61,20 +61,18 @@ int main(void) {
 ----
 #### Binary Search Algorithm의 시간 복잡도 : 최악의 경우를 기준으로
 + 최악의 경우 : 값이 존재하지 않는 상황으로 설정
-    - 데이터의 갯수 $n$
-    - $n$이 1이 되기까지 2로 나눈 횟수 $k$
+    - 데이터의 갯수 
+    <!-- $n$ --> <img style="transform: translateY(0.1em); background: white; width:8.5em;" src="https://render.githubusercontent.com/render/math?math=n">
+    - $n$이 1이 되기까지 2로 나눈 횟수 
+    <!-- $k$ --> <img style="transform: translateY(0.1em); background: white; width:8.5em;" src="https://render.githubusercontent.com/render/math?math=k">
     - 마지막 데이터가 남았을 때 비교 연산 1회 진행
-    - 최악의 경우에 대한 시간 복잡도 함수 $T(n)=k+1$
-+ $T(n)=k+1$에 대한 연산 (k값 구하기)
+    - 최악의 경우에 대한 시간 복잡도 함수 
+    <!-- $T(n)=k+1$ --> <img style="transform: translateY(0.1em); background: white; width:8.5em;" src="https://render.githubusercontent.com/render/math?math=T(n)%3Dk%2B1">
++ <!-- $T(n)=k+1$ --> <img style="transform: translateY(0.1em); background: white; width:8.5em;" src="https://render.githubusercontent.com/render/math?math=T(n)%3Dk%2B1">에 대한 연산 (k값 구하기)
     + n값 정의 
-      - $n\times(\frac{1}{2})^k=1$
-      - $n\times2^{-k}=1$
-      - $n = 2^k$
+      - <!-- $n\times(\frac{1}{2})^k=1$ --> <img style="transform: translateY(0.1em); background: white; width:8.5em;" src="https://render.githubusercontent.com/render/math?math=n%5Ctimes(%5Cfrac%7B1%7D%7B2%7D)%5Ek%3D1">
+      - <!-- $n\times2^{-k}=1$ --> <img style="transform: translateY(0.1em); background: white; width:8.5em;" src="https://render.githubusercontent.com/render/math?math=n%5Ctimes2%5E%7B-k%7D%3D1">
+      - <!-- $n = 2^k$ --> <img style="transform: translateY(0.1em); background: white; width:8.5em;" src="https://render.githubusercontent.com/render/math?math=n%20%3D%202%5Ek">
     + k값 정의
-      - $\log_2n=k$
-      - $\therefore T(n)=\log_2n$   
-
-
-
-<script>
-https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.15.2/katex.min.js</script>
+      - <!-- $\log_2n=k$ --> <img style="transform: translateY(0.1em); background: white; width:8.5em;" src="https://render.githubusercontent.com/render/math?math=%5Clog_2n%3Dk">
+      - <!-- $\therefore T(n)=\log_2n$ --> <img style="transform: translateY(0.1em); background: white; width:8.5em;" src="https://render.githubusercontent.com/render/math?math=%5Ctherefore%20T(n)%3D%5Clog_2n">
